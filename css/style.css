@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
 .header {
     font-family: "Verdana", sans-serif;
     font-weight: bold;
     background-color: orange;
+    margin: 10px 10px;
 }
 
 .h1 {
@@ -11,6 +17,7 @@
 .recipe-list {
     font-family: "Helvetica", sans-serif;
     font-size: 24px;
+    list-style-type: none;
 }
 
 .list {
@@ -21,14 +28,33 @@
 a {
     text-decoration: none;
     color: black;
+    padding: 1px;
+    display: block;
 }
 
 img {
     height: auto;
-    width: 600px;
+    width: 200px;
 }
 
 p {
     font-size: 18px;
     font-family: "Helvetica", sans-serif;
+}
+
+.odin-image {
+    margin: auto;
+    display: block;
+    vertical-align: top;
+}
+
+.header-div {
+    display: inline-block;
+    margin: auto;
+}
+
+.recipe-div {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
 }
